@@ -1,6 +1,7 @@
 :root {
   --main-page-background: #ffffff;
   --section-background: #2f303a;
+  --secondary-background-color: #f5f4fa;
   --button-background-passive: #f5f4fa;
   --text-color-main: #212121;
   --accent-color: #2196f3;
@@ -10,6 +11,7 @@
   --text-color-third: #fff;
   --logo-color-main: #2196f3;
   --logo-color-second: #000000;
+  --contact-color-footer: rgba(255, 255, 255, 0, 6);
 }
 
 body {
@@ -24,7 +26,7 @@ body {
   color: var(--logo-color-main);
   text-decoration: none;
 }
-.logo-second {
+.logo-black {
   color: var(--logo-color-second);
 }
 .nav-list .link {
@@ -62,6 +64,30 @@ body {
 .description .description-list {
   color: var(--text-color-main);
 }
-.task-header {
+.section-header {
   color: var(--text-color-main);
+}
+.team {
+  background-color: var(--secondary-background-color);
+}
+.team-member {
+  color: var(--text-color-main);
+}
+.team-member .description {
+  color: var(--text-color-second);
+}
+/* FOOTER */
+.footer {
+  background-color: var(--section-background);
+}
+.logo-white {
+  color: var(--text-color-third);
+}
+.adress {
+  color: var(--text-color-third);
+  font-style: normal;
+}
+.contacts .list {
+  text-decoration: none;
+  color: var(--contact-color-footer);
 }
