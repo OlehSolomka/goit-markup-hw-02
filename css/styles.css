@@ -11,7 +11,7 @@
   --text-color-third: #fff;
   --logo-color-main: #2196f3;
   --logo-color-second: #000000;
-  --contact-color-footer: rgba(255, 255, 255, 0, 6);
+  --contact-color-footer: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -33,6 +33,10 @@ body {
   color: var(--link-text-color-passive);
   text-decoration: none;
 }
+.nav-list .active {
+  color: var(--accent-color);
+  text-decoration: none;
+}
 .nav-list .link:hover,
 .nav-list .link:focus {
   color: var(--accent-color);
@@ -43,6 +47,10 @@ body {
 }
 .contact-list .list:hover,
 .contact-list .list:focus {
+  color: var(--accent-color);
+}
+
+.active {
   color: var(--accent-color);
 }
 
