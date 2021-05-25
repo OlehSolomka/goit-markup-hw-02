@@ -16,6 +16,8 @@
 
 body {
   background-color: var(--main-page-background);
+  font-family: Roboto, sans-serif;
+  color: var(--text-color-main);
 }
 .list {
   list-style: none;
@@ -29,21 +31,43 @@ body {
 .logo-black {
   color: var(--logo-color-second);
 }
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
 .nav-list .link {
-  color: var(--link-text-color-passive);
+  color: var(--text-color-main);
   text-decoration: none;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 .nav-list .active {
   color: var(--accent-color);
   text-decoration: none;
 }
 .nav-list .link:hover,
-.nav-list .link:focus {
+.nav-list .link:focus,
+.contact-list .list:hover,
+.contact-list .list:focus,
+.nav-list .active {
   color: var(--accent-color);
 }
 .contact-list .list {
   color: var(--text-color-second);
   text-decoration: none;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 .contact-list .list:hover,
 .contact-list .list:focus {
@@ -61,22 +85,52 @@ body {
 }
 .hero-header {
   color: var(--text-color-third);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
 }
 .hero-page-button {
   background-color: var(--logo-color-main);
   color: var(--text-color-third);
+
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
 }
 .description {
   color: var(--text-color-second);
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
 }
 .description .description-list {
   color: var(--text-color-main);
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
 }
 .section-header {
-  color: var(--text-color-main);
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .team {
   background-color: var(--secondary-background-color);
+}
+.team-list {
+  background-color: var(--main-page-background);
+}
+.team-list .description {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .team-member {
   color: var(--text-color-main);
@@ -84,6 +138,7 @@ body {
 .team-member .description {
   color: var(--text-color-second);
 }
+
 /* FOOTER */
 .footer {
   background-color: var(--section-background);
@@ -94,8 +149,48 @@ body {
 .adress {
   color: var(--text-color-third);
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
 }
 .contacts .list {
   text-decoration: none;
   color: var(--contact-color-footer);
+}
+.contact-list .footer-list {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* PORTFOLIO MAIN */
+
+.button {
+  color: var(--text-color-main);
+  background-color: var(--button-background-passive);
+
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.button:hover,
+.button:focus {
+  color: var(--button-text-color-hover);
+  background-color: var(--accent-color);
+}
+
+.list-item {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+.item-filter {
+  color: var(--text-color-second);
+
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
